@@ -1,0 +1,117 @@
+
+/****** CSS Styling******/
+
+
+body {
+  overflow-x: hidden;
+}
+
+/***** navigation ******/
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid;
+}
+
+/*****Carousel******/
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background: url("../img/image1.jpg");
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url("../img/image2.jpg");
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url("../img/image3.jpg");
+  background-size: cover;
+}
+
+/****** index.html*******/
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/lights.jpg");
+  background-attachment: fixed;
+  background-repeat: none;
+  text-align: center;
+  color: white;
+}
+
+.dark-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.8;
+}
+
+#video-play{
+  position: relative;
+  min-height: 200px;
+  background: url("../img/media.jpg");
+  background-attachment: fixed;
+  background-repeat: none;
+  background-position: 0 -300px;
+  text-align: center;
+  color: white;
+}
+
+#video-play a {
+  color: white;
+}
+
+/******* About.html********/
+
+#about-header, #services-header, #contact-header {
+  position: relative;
+  height: 200px;
+  background: url("../img/image1.jpg");
+  background-attachment: fixed;
+  background-repeat: none;
+  background-position: 0 -360px;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+#aboutus .position-adjust{
+  margin-top: -80px;
+}
+
+#faq-section .card {
+  border: #444;
+}
+
+#faq-section a {
+  color: white;
+  text-decoration: none;
+}
+
+#faq-section .card-body,
+#faq-section .card-header {
+  background: #333;
+}
+
+/*******Footer ******/
+
+#main-footer {
+  background: black;
+  color: white;
+}
